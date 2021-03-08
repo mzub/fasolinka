@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="header :: header"></head>
+
+<body class="bg-light">
+
+	<nav th:replace="navbar :: navbar"></nav>
+
+	<div class="d-flex">
+
+		<div th:replace="sidebar :: sidebar"></div>
+
+		<div class="content p-4">
+			<h2 class="mb-4">Пользователи</h2>
+
+			<div class="card mb-4">
+				<div class="card-body">users live here</div>
+			</div>
+		</div>
+	</div>
+	<div th:replace="scripts :: scripts"></div>
+
+</body>
+</html>

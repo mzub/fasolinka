@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<div th:fragment="sidebar" class="sidebar sidebar-dark bg-dark">
+	<ul class="list-unstyled">
+		<li><a th:href="@{/}"><i class="fa fa-fw fa-link"></i>Панель состояния</a></li>
+		<li><a th:href="@{/products}"><i class="fa fa-fw fa-link"></i>Продукты</a></li>
+		<li><a th:href="@{/categroies}"><i class="fa fa-fw fa-link"></i>Категории</a></li>
+		<li><a th:href="@{/users}"><i class="fa fa-fw fa-link"></i>Пользователи</a></li>
+	</ul>
+</div>
+
+</html>
